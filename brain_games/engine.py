@@ -11,11 +11,11 @@ def ask_question(question_subject):
 
     Returns:
         User's answer
-    """    
-    
+    """
+
     print(f'Question: {question_subject}')
     user_answer = prompt.string('Your answer: ')
-    
+
     return user_answer
 
 
@@ -30,7 +30,7 @@ def check_condition(user_answer, correct_answer, counter: int, username: str):
 
     Returns:
         _type_: _description_
-    """    
+    """
 
     # add point if the answer is correct
     if user_answer == correct_answer:
