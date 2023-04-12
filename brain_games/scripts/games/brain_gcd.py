@@ -4,23 +4,17 @@ import brain_games.engine as egn
 import sys
 
 
-def find_dividers(num: int):
-    """
-    Returns all dividers for a `num`
+def gcd(a, b):
+    # find minimum of a and b
+    result = min(a, b)
 
-    Args:
-        num (int): integer for which all divider should be found
+    while result:
+        if a % result == 0 and b % result == 0:
+            break
+        result -= 1
 
-    Returns:
-        list: list of dividers for a `num`
-    """
-
-    num_divs = []
-    for n in range(1, num + 1):
-        if num % n == 0:
-            num_divs.append(n)
-
-    return num_divs
+    # return the gcd of a and b
+    return result
 
 
 def main():
@@ -36,15 +30,27 @@ def main():
 
         user_answer_str = egn.ask_question(f'{num_1} {num_2}')
 
-        # calculation of the correct answer
-        num_1_dividers = find_dividers(num_1)
-        print(num_1_dividers)
-        num_2_dividers = find_dividers(num_2)
-        print(num_2_dividers)
+        try:
+            int(user_answer_str)
+        except ValueError:
+            print('Only numbers are allowed for the input')
+            sys.exit()
 
-        div_intersection = set(num_1_dividers).intersection(num_2_dividers)
-        print(div_intersection)
-        print(max(div_intersection))
+        user_answer = int(user_answer_str)
+
+        # calculation of the correct answer
+
+        correct_answer = gcd(num_1, num_2)
+
+        correct_counter = egn.check_condition(
+            user_answer=user_answer,
+            correct_answer=correct_answer,
+            counter=correct_counter,
+            username=username
+        )
+
+    print(f'Congratulations, {username}!')
+    sys.exit()
 
 
 if __name__ == '__main__':
