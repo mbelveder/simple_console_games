@@ -20,16 +20,18 @@ def ask_question(question_subject):
 
 
 def check_condition(user_answer, correct_answer, counter: int, username: str):
-    """_summary_
+    """
+    Compares user's answer with the correct answer and adds 1 to the couter
+    if they are identical
 
     Args:
-        user_answer (_type_): _description_
-        correct_answer (_type_): _description_
-        counter (int): _description_
-        username (str): _description_
+        user_answer: user's answer
+        correct_answer: correct answer
+        counter (int): counter of correct answers
+        username (str): user's name
 
     Returns:
-        _type_: _description_
+        int: counter
     """
 
     # add point if the answer is correct
