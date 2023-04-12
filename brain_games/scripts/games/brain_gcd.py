@@ -30,11 +30,7 @@ def main():
 
         user_answer_str = egn.ask_question(f'{num_1} {num_2}')
 
-        try:
-            int(user_answer_str)
-        except ValueError:
-            print('Only numbers are allowed for the input')
-            sys.exit()
+        egn.check_user_input(user_answer_str)
 
         user_answer = int(user_answer_str)
 

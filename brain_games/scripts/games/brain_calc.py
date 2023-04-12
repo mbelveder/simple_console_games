@@ -23,16 +23,13 @@ def main():
         num_1 = random.randint(1, 100)
         num_2 = random.randint(1, 15)
 
+        # choose random operator and create question
         chosen_oper = random.choice(list(operators.keys()))
         expression = f'{num_1} {chosen_oper} {num_2}'
 
         user_answer_str = egn.ask_question(expression)
 
-        try:
-            int(user_answer_str)
-        except ValueError:
-            print('Only numbers are allowed for the input')
-            sys.exit()
+        egn.check_user_input(user_answer_str)
 
         user_answer = int(user_answer_str)
         correct_answer = int(operators[chosen_oper](num_1, num_2))

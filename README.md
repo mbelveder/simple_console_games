@@ -7,3 +7,4 @@
 - [brain-even](https://asciinema.org/a/yFpz0zS0fx12CdZWrlbd3pxUO): determine if the number is even
 - [brain-calc](https://asciinema.org/a/hwyChjqOheuYjJNP2QbvwI4yQ): calculate the result of an expression
 - [brain-gcd](https://asciinema.org/a/4TDgiUaUXG4CUKCXiFbE7X5Cv): find the greater common divisor
+- [brain-progression](https://asciinema.org/a/Fg29Tkoj4L1nA0hTos6g3xOMH): determine the missing value in random arithmetic progression
