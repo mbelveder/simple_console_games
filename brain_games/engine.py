@@ -2,7 +2,7 @@ import prompt
 import sys
 
 
-def ask_question(question_subject, unpack_question: bool):
+def ask_question(question_subject, unpack_question: bool = False):
     """
     Asks user a question and returns user's answer
 

@@ -6,7 +6,7 @@ import sys
 
 def main():
 
-        # print the welcome phrase and the rules
+    # print the welcome phrase and the rules
     username = welcome_user()
     print('What number is missing in the progression?')
 
