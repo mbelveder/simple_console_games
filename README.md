@@ -7,7 +7,7 @@
 
 `pip install git+https://github.com/mbelveder/python-project-49`
 
-Note: you may need to upgrade your `pip`
+Note: you may need to upgrade your `pip` first.
 
 ### Usage examples:
 - [brain-even](https://asciinema.org/a/yFpz0zS0fx12CdZWrlbd3pxUO): determine if the number is even
