@@ -3,6 +3,12 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/6782d3b6879fb613686b/maintainability)](https://codeclimate.com/github/mbelveder/python-project-49/maintainability)
 
+### Installation
+
+`pip install git+https://github.com/mbelveder/python-project-49`
+
+Note: you may need to upgrade your `pip`
+
 ### Usage examples:
 - [brain-even](https://asciinema.org/a/yFpz0zS0fx12CdZWrlbd3pxUO): determine if the number is even
 - [brain-calc](https://asciinema.org/a/hwyChjqOheuYjJNP2QbvwI4yQ): calculate the result of an expression
