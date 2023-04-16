@@ -15,7 +15,7 @@ def main():
     while correct_counter < 3:
 
         start = rnd.randint(1, 100)
-        step = rnd.randint(1, 10)
+        step = rnd.randint(5, 15)
         n_elements = 10
         progression = list(range(start, start + step * n_elements, step))
 
