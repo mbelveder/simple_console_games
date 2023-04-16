@@ -28,6 +28,14 @@ def main():
     while correct_counter < 3:
 
         number = rnd.randint(2, 1000)
+        print(number)
+        print()
+
+        # use only odd numbers to make the game less trivial
+        while number % 2 == 0:
+            number = rnd.randint(2, 1000)
+            print(number)
+            print()
 
         user_answer_str = egn.ask_question(question_subject=number)
         correct_answer = is_prime(number)
@@ -41,3 +49,7 @@ def main():
 
     print(f'Congratulations, {username}!')
     sys.exit()
+
+
+if __name__ == '__main__':
+    main()
