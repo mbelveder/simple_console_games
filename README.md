@@ -5,6 +5,10 @@
 ### Description
 This Python package was created solely for educational purposes and contains a bunch of trivial command line games. Python packaging and dependency management was done with [Poetry](https://python-poetry.org/) as a part of the [Hexlet](https://ru.hexlet.io/) Python educational course.
 
+### Requirements
+
+Python 3.11 or higher
+
 ### Installation
 
 `pip3 install git+https://github.com/mbelveder/python-project-49`
