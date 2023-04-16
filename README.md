@@ -12,7 +12,7 @@ This Python package was created solely for educational purposes and contains a b
 Note: you may need to upgrade your `pip3` first.
 
 ### Usage examples:
-- [brain-even](https://asciinema.org/a/yFpz0zS0fx12CdZWrlbd3pxUO): determine if the number is even 🧠
+- [brain-even](https://asciinema.org/a/jiGOmoK9l74BggTW6E6CEpBUA): determine if the number is even 🧠
 - [brain-calc](https://asciinema.org/a/hwyChjqOheuYjJNP2QbvwI4yQ): calculate the result of the expression 🔢
 - [brain-gcd](https://asciinema.org/a/4TDgiUaUXG4CUKCXiFbE7X5Cv): find the greater common divisor ⚖️
 - [brain-progression](https://asciinema.org/a/Fg29Tkoj4L1nA0hTos6g3xOMH): determine the missing value in a random arithmetic progression 🤔
